@@ -1,0 +1,16 @@
+# Edit this file to change what the bot searches for. No code changes needed.
+
+search_terms:
+  - "software engineer"
+  - "software development engineer"
+  - "full stack developer"
+  - "backend engineer"
+
+location: "United States"   # Adzuna country code is set separately below (us, gb, etc.)
+country_code: "us"
+
+results_per_search_term: 30   # Adzuna returns up to 50 per page; keep modest to stay in free tier
+top_n_to_show: 20             # How many top-matching jobs land on the dashboard
+
+# Jobs older than this many days are dropped even if they score well
+max_age_days: 7
